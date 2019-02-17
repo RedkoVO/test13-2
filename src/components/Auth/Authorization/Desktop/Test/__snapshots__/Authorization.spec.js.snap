@@ -1,0 +1,113 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Authorization /> renders correctly 1`] = `
+<div
+  className="Authorization-root-1"
+>
+  <div
+    className="Authorization-containerRegistrat-3"
+  >
+    <div
+      className="Authorization-containerRegistratStep1-2"
+    >
+      <form
+        className="Authorization-registrStep1-10"
+        onSubmit={[Function]}
+      >
+        <h1
+          className="Authorization-step1Title-11"
+        >
+          Login
+        </h1>
+        <label
+          className="Authorization-step1Label-12"
+          htmlFor="key"
+        >
+          Enter secret key from email
+        </label>
+        <input
+          className="Authorization-field-13"
+          id="key"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onDragStart={[Function]}
+          onDrop={[Function]}
+          onFocus={[Function]}
+          placeholder="Secret key"
+          type="text"
+          value=""
+        />
+        <div
+          className="Authorization-dropzone-6"
+          onBlur={[Function]}
+          onClick={[Function]}
+          onDragEnter={[Function]}
+          onDragLeave={[Function]}
+          onDragOver={[Function]}
+          onDragStart={[Function]}
+          onDrop={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          tabIndex={0}
+        >
+          <input
+            accept="text/*"
+            autoComplete="off"
+            multiple={true}
+            onChange={[Function]}
+            onClick={[Function]}
+            style={
+              Object {
+                "display": "none",
+              }
+            }
+            tabIndex={-1}
+            type="file"
+          />
+          <p>
+            Try dropping .txt files here, or click to this area.
+          </p>
+        </div>
+        <div>
+          <a
+            className="Authorization-step1BtnBack-14"
+            href="/registration"
+            onClick={[Function]}
+          >
+            Registration
+          </a>
+          <button
+            className="Authorization-step1BtnsRegister-15"
+            type="submit"
+          >
+            Login!
+          </button>
+        </div>
+      </form>
+    </div>
+    <div
+      className="Authorization-footer-4"
+    >
+      <span
+        className="Authorization-copyright-5"
+      >
+        Vault. All Rights Reserved 2018
+      </span>
+      <div>
+        <a
+          className="Authorization-footerLink-9"
+          href="/"
+        >
+          Privacy Policy
+        </a>
+        <a
+          className="Authorization-footerLink-9"
+          href="/"
+        >
+          Terms and conditions
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;

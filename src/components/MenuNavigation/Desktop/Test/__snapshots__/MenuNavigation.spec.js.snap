@@ -1,0 +1,210 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly game 1`] = `
+<ul
+  className="MenuNavigationGame-root-13"
+>
+  <li>
+    <div
+      className="MenuNavigationGame-logout-22"
+      onClick={[Function]}
+    >
+      Logout
+    </div>
+  </li>
+  <li>
+    <a
+      className="MenuNavigationGame-headerMenuItem-14"
+      href="/"
+      onClick={[Function]}
+    >
+      <i
+        className="MenuNavigationGame-menuIcon-15 MenuNavigationGame-dashboard-16"
+      />
+      <br />
+       Dashboard
+    </a>
+  </li>
+  <li>
+    <a
+      className="MenuNavigationGame-headerMenuItem-14"
+      href="/"
+      onClick={[Function]}
+    >
+      <i
+        className="MenuNavigationGame-menuIcon-15 MenuNavigationGame-walletIcon-17"
+      />
+      <br />
+       Wallet
+    </a>
+  </li>
+  <li>
+    <a
+      className="MenuNavigationGame-headerMenuItem-14"
+      href="/"
+      onClick={[Function]}
+    >
+      <i
+        className="MenuNavigationGame-menuIcon-15 MenuNavigationGame-shop-18"
+      />
+      <br />
+       Shop
+    </a>
+  </li>
+  <li>
+    <a
+      className="MenuNavigationGame-headerMenuItem-14"
+      href="/games"
+      onClick={[Function]}
+    >
+      <i
+        className="MenuNavigationGame-menuIcon-15 MenuNavigationGame-games-19"
+      />
+      <br />
+       Games
+    </a>
+  </li>
+  <li>
+    <a
+      className="MenuNavigationGame-headerMenuItem-14"
+      href="/"
+      onClick={[Function]}
+    >
+      <i
+        className="MenuNavigationGame-menuIcon-15 MenuNavigationGame-friends-20"
+      />
+      <br />
+       Friends
+    </a>
+  </li>
+  <li>
+    <a
+      className="MenuNavigationGame-headerMenuItem-14"
+      href="/"
+      onClick={[Function]}
+    >
+      <i
+        className="MenuNavigationGame-menuIcon-15 MenuNavigationGame-settings-21"
+      />
+      <br />
+       Settings
+    </a>
+  </li>
+</ul>
+`;
+
+exports[`renders correctly main 1`] = `
+<ul
+  className="MenuNavigation-root-1"
+>
+  <div
+    className="MenuNavigation-headerMenuItem-2 MenuNavigation-wrLogout-3"
+    onClick={[Function]}
+  >
+    <i
+      className="MenuNavigation-menuIcon-4 MenuNavigation-logout-5"
+    />
+    <br />
+     Logout
+  </div>
+  <li>
+    <a
+      aria-current="page"
+      className="MenuNavigation-headerMenuItem-2 active"
+      href="/"
+      onClick={[Function]}
+      style={Object {}}
+    >
+      <i
+        className="MenuNavigation-menuIcon-4 MenuNavigation-walletIcon-6"
+      />
+      <br />
+       Wallet
+    </a>
+  </li>
+  <li>
+    <a
+      aria-current={null}
+      className="MenuNavigation-headerMenuItem-2"
+      href="/vchange"
+      onClick={[Function]}
+    >
+      <i
+        className="MenuNavigation-menuIcon-4 MenuNavigation-vexchange-7"
+      />
+      <br />
+       VChange
+    </a>
+  </li>
+  <li>
+    <a
+      aria-current={null}
+      className="MenuNavigation-headerMenuItem-2"
+      href="/games"
+      onClick={[Function]}
+    >
+      <i
+        className="MenuNavigation-menuIcon-4 MenuNavigation-games-10"
+      />
+      <br />
+       Games
+    </a>
+  </li>
+  <li>
+    <a
+      aria-current={null}
+      className="MenuNavigation-headerMenuItem-2"
+      href="/#apps"
+      onClick={[Function]}
+    >
+      <i
+        className="MenuNavigation-menuIcon-4 MenuNavigation-apps-8"
+      />
+      <br />
+       Apps
+    </a>
+  </li>
+  <li>
+    <a
+      aria-current={null}
+      className="MenuNavigation-headerMenuItem-2"
+      href="/#shops"
+      onClick={[Function]}
+    >
+      <i
+        className="MenuNavigation-menuIcon-4 MenuNavigation-shop-9"
+      />
+      <br />
+       Shop
+    </a>
+  </li>
+  <li>
+    <a
+      aria-current={null}
+      className="MenuNavigation-headerMenuItem-2"
+      href="/#contacts"
+      onClick={[Function]}
+    >
+      <i
+        className="MenuNavigation-menuIcon-4 MenuNavigation-friends-11"
+      />
+      <br />
+       Contacts
+    </a>
+  </li>
+  <li>
+    <a
+      aria-current={null}
+      className="MenuNavigation-headerMenuItem-2"
+      href="/#settings"
+      onClick={[Function]}
+    >
+      <i
+        className="MenuNavigation-menuIcon-4 MenuNavigation-settings-12"
+      />
+      <br />
+       Settings
+    </a>
+  </li>
+</ul>
+`;

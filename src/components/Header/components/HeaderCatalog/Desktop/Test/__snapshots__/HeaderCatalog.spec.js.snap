@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="HeaderCatalog-root-1"
+>
+  <div
+    className="HeaderCatalog-streamUserBlock-2"
+  >
+    <p
+      className="HeaderCatalog-streamUserHello-3"
+    >
+      Hello, Ben A 
+      <br />
+      <a
+        className="HeaderCatalog-streamUserVerification-4"
+        href="/"
+        onClick={[Function]}
+      >
+        KYC VERIFICATION
+      </a>
+    </p>
+    <div
+      className="HeaderCatalog-streamUserPhoto-5"
+    >
+      <img
+        alt=""
+        src="user.jpg"
+      />
+    </div>
+  </div>
+</div>
+`;

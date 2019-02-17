@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="TransactionHistory-root-1"
+>
+  <div
+    className="TransactionHistory-transactionsTitle-2"
+  >
+     Transactions
+  </div>
+  <div
+    className="TransactionHistory-transactionsTable-3"
+  >
+    <div
+      className="TransactionHistory-tableHead-6 TransactionHistory-tableRow-5"
+    >
+      <div
+        className="TransactionHistory-tableData-4 TransactionHistory-col1-11"
+      >
+        address:
+      </div>
+      <div
+        className="TransactionHistory-tableData-4 TransactionHistory-col2-12"
+      >
+        ammount:
+      </div>
+      <div
+        className="TransactionHistory-tableData-4 TransactionHistory-col3-13"
+      >
+        status:
+      </div>
+    </div>
+    <div
+      className="TransactionHistory-tableWrapper-15"
+      id="table-scroll"
+      tabIndex="5000"
+    >
+      <div
+        className="TransactionHistory-tableContentWrap-16"
+      />
+    </div>
+  </div>
+  <div
+    className="TransactionHistory-wrTableBtns-17"
+  >
+    <button
+      className="TransactionHistory-moreButton-18"
+    >
+      More 10 transaction
+    </button>
+  </div>
+</div>
+`;

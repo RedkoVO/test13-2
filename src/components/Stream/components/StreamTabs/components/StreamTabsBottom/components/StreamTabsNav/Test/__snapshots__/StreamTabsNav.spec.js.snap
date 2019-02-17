@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="StreamTabsNav-root-1"
+>
+  <div
+    className="StreamTabsNav-streamTabsNavItem-2 StreamTabsNav-liveNow-3"
+  >
+    <span>
+      LIVE NOW
+    </span>
+    <span
+      className="StreamTabsNav-streamTabsWatch-5"
+    >
+      2
+    </span>
+  </div>
+  <div
+    className="StreamTabsNav-streamTabsNavItem-2"
+  >
+    <img
+      alt=""
+      className="StreamTabsNav-streamTabsNavImg-4"
+      src="gamepad.svg"
+    />
+    <span>
+      ALL GAMES
+    </span>
+    <span
+      className="StreamTabsNav-streamTabsWatch-5"
+    >
+      2
+    </span>
+  </div>
+  <div
+    className="StreamTabsNav-streamTabsNavItem-2"
+  >
+    <img
+      alt=""
+      className="StreamTabsNav-streamTabsNavImg-4"
+      src="starcraft.png"
+    />
+    <span>
+      STARCRAFT 2
+    </span>
+    <span
+      className="StreamTabsNav-streamTabsWatch-5"
+    >
+      2
+    </span>
+  </div>
+  <div
+    className="StreamTabsNav-streamTabsNavItem-2"
+  >
+    <img
+      alt=""
+      className="StreamTabsNav-streamTabsNavImg-4"
+      src="dota-2.svg"
+    />
+    <span>
+      DOTA 2
+    </span>
+    <span
+      className="StreamTabsNav-streamTabsWatch-5"
+    >
+      2
+    </span>
+  </div>
+  <div
+    className="StreamTabsNav-streamTabsNavItem-2"
+  >
+    <img
+      alt=""
+      className="StreamTabsNav-streamTabsNavImg-4"
+      src="overwatch.png"
+    />
+    <span>
+      CS:GO
+    </span>
+    <span
+      className="StreamTabsNav-streamTabsWatch-5"
+    >
+      2
+    </span>
+  </div>
+  <div
+    className="StreamTabsNav-streamTabsNavItem-2"
+  >
+    <img
+      alt=""
+      className="StreamTabsNav-streamTabsNavImg-4"
+      src="csgo.png"
+    />
+    <span>
+      CS:GO
+    </span>
+    <span
+      className="StreamTabsNav-streamTabsWatch-5"
+    >
+      2
+    </span>
+  </div>
+</div>
+`;

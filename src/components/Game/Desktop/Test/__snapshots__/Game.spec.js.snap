@@ -1,0 +1,793 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly Desktop 1`] = `
+<div
+  className="mainWrapperGame"
+>
+  <div
+    className="Game-containerGame-1"
+  >
+    <header
+      className="Game-headerGame-2"
+    >
+      <div
+        className="Game-gameHeaderMain-3"
+      />
+    </header>
+    <main
+      className="Game-gameMain-4"
+    >
+      <div
+        className="GameCounter-root-8"
+      >
+        <div
+          className="GameCounter-counterWins-13"
+        >
+          <p
+            className="GameCounter-counterBiggestWin-14"
+          >
+            <span
+              className="GameCounter-counterValue-18"
+            >
+              4666.78 dcb
+            </span>
+             
+            <br />
+             BIGGEST WIN 
+            <br />
+             FOR ALL TIME
+          </p>
+        </div>
+        <div
+          className="GameCounter-counterHours-9"
+        >
+          <p
+            className="GameCounter-counterHoursVolume-15"
+          >
+            <span
+              className="GameCounter-counterValue-18"
+            >
+              167.12 dcb
+            </span>
+             
+            <br />
+             VOLUME OF 
+            <br />
+            24 HOURS
+          </p>
+        </div>
+        <div
+          className="GameCounter-counterUsers-10"
+        >
+          <p
+            className="GameCounter-counterUsersVolume-11"
+          >
+            <span
+              className="GameCounter-counterValue-18"
+            >
+              785
+            </span>
+             
+            <br />
+             USERS FOR 
+            <br />
+            LAST 24 HOURS
+          </p>
+        </div>
+        <div
+          className="GameCounter-counterContracts-12"
+        >
+          <p
+            className="GameCounter-counterContractsVolume-16"
+          >
+            <span
+              className="GameCounter-counterValue-18"
+            >
+              20243.12 dcb
+            </span>
+             
+            <br />
+             ALL VOLUME OF 
+            <br />
+             SMART CONTRACT
+          </p>
+          <br />
+          <a
+            className="GameCounter-counterContractsLink-17"
+            href="/"
+            onClick={[Function]}
+          >
+            0x7fdcd2a1e52f10c28cb7732f46393e297ecadda1
+          </a>
+        </div>
+      </div>
+      <div
+        className="GameComments-root-19"
+      >
+        <div
+          className="GameComments-commentItem-20 GameComments-comment1-21"
+        >
+          <a
+            className="GameComments-commentUser-22"
+            href="/"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="GameComments-commentUserPhoto-23"
+              src="UserImg"
+            />
+          </a>
+          <div
+            className="GameComments-commentTitle-24"
+          >
+            <span
+              className="GameComments-commentTitleText-25"
+            >
+              Ben F.
+               says:
+            </span>
+            <time
+              className="GameComments-commentDate-26"
+              dateTime="2018-05-22 13:30"
+            >
+              22 May 2018 12:03
+            </time>
+          </div>
+          <p>
+            Curabitur tincidunt orci quis odio aliquet placerat. Nullam laoreet justo eros, quis semper turpis gravida eget. Ut ullamcorper nibho a massa tincidunt malesuada. In nunc velit basank. s semper turpis gravida eget. Ut ullamcorper nibho a massa tincidunt malesuada. In nunc velit basank.
+          </p>
+          <a
+            className="GameComments-commentLike-28"
+            href="/"
+            onClick={[Function]}
+          >
+             
+            <span
+              className="GameComments-likeValue-29"
+            >
+              5
+            </span>
+             Like
+          </a>
+          <a
+            className="GameComments-subComment-27"
+            href="/"
+            onClick={[Function]}
+          >
+            <span
+              className="GameComments-commentValue-30"
+            >
+              7
+            </span>
+             Comment
+          </a>
+        </div>
+        <div
+          className="GameComments-commentItem-20 GameComments-comment2-31"
+        >
+          <a
+            className="GameComments-commentUser-22"
+            href="/"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="GameComments-commentUserPhoto-23"
+              src="UserImg"
+            />
+          </a>
+          <div
+            className="GameComments-commentTitle-24"
+          >
+            <span
+              className="GameComments-commentTitleText-25"
+            >
+              Thomas D.
+               says:
+            </span>
+            <time
+              className="GameComments-commentDate-26"
+              dateTime="2018-05-22 13:30"
+            >
+              22 May 2018 12:03
+            </time>
+          </div>
+          <p>
+            Nulla non pellentesque sem, sed aliquet justo. Praesent egestas purus et bibendum tempus.Interdum et malesuada fames ac ante ipsum primis in faucibus.
+          </p>
+          <a
+            className="GameComments-commentLike-28"
+            href="/"
+            onClick={[Function]}
+          >
+             
+            <span
+              className="GameComments-likeValue-29"
+            >
+              5
+            </span>
+             Like
+          </a>
+          <a
+            className="GameComments-subComment-27"
+            href="/"
+            onClick={[Function]}
+          >
+            <span
+              className="GameComments-commentValue-30"
+            >
+              7
+            </span>
+             Comment
+          </a>
+        </div>
+      </div>
+    </main>
+  </div>
+</div>
+`;
+
+exports[`renders correctly Mobile 1`] = `
+<div
+  className="mainWrapperGame"
+>
+  <div
+    className="Game-containerGame-1"
+  >
+    <header
+      className="Game-headerGame-2"
+    >
+      <div
+        className="Game-gameHeaderMain-3"
+      >
+        <ul
+          className="MenuNavigationGame-root-33 dark"
+        >
+          <li>
+            <div
+              className="MenuNavigationGame-logout-42"
+              onClick={[Function]}
+            >
+              Logout
+            </div>
+          </li>
+          <li>
+            <a
+              className="MenuNavigationGame-headerMenuItem-34"
+              href="/"
+              onClick={[Function]}
+            >
+              <i
+                className="MenuNavigationGame-menuIcon-35 MenuNavigationGame-dashboard-36"
+              />
+              <br />
+               Dashboard
+            </a>
+          </li>
+          <li>
+            <a
+              className="MenuNavigationGame-headerMenuItem-34"
+              href="/"
+              onClick={[Function]}
+            >
+              <i
+                className="MenuNavigationGame-menuIcon-35 MenuNavigationGame-walletIcon-37"
+              />
+              <br />
+               Wallet
+            </a>
+          </li>
+          <li>
+            <a
+              className="MenuNavigationGame-headerMenuItem-34"
+              href="/"
+              onClick={[Function]}
+            >
+              <i
+                className="MenuNavigationGame-menuIcon-35 MenuNavigationGame-shop-38"
+              />
+              <br />
+               Shop
+            </a>
+          </li>
+          <li>
+            <a
+              className="MenuNavigationGame-headerMenuItem-34"
+              href="/games"
+              onClick={[Function]}
+            >
+              <i
+                className="MenuNavigationGame-menuIcon-35 MenuNavigationGame-games-39"
+              />
+              <br />
+               Games
+            </a>
+          </li>
+          <li>
+            <a
+              className="MenuNavigationGame-headerMenuItem-34"
+              href="/"
+              onClick={[Function]}
+            >
+              <i
+                className="MenuNavigationGame-menuIcon-35 MenuNavigationGame-friends-40"
+              />
+              <br />
+               Friends
+            </a>
+          </li>
+          <li>
+            <a
+              className="MenuNavigationGame-headerMenuItem-34"
+              href="/"
+              onClick={[Function]}
+            >
+              <i
+                className="MenuNavigationGame-menuIcon-35 MenuNavigationGame-settings-41"
+              />
+              <br />
+               Settings
+            </a>
+          </li>
+        </ul>
+        <div
+          className="RollTopDesktop-root-46"
+        >
+          <div
+            className="RollTopDesktop-gameRollImg-47"
+          >
+            <img
+              alt=""
+              src="image"
+            />
+          </div>
+          <div
+            className="RollTopDesktop-gameRollInf-48"
+          >
+            <div
+              className="HeaderGame-root-74"
+            >
+              <div
+                className="HeaderGame-gameUserBlock-75"
+              >
+                <p
+                  className="HeaderGame-gameUserHello-76"
+                >
+                  Hello, Ben A 
+                  <br />
+                  <a
+                    className="HeaderGame-gameUserVerification-77"
+                    href="/"
+                    onClick={[Function]}
+                  >
+                    KYC VERIFICATION
+                  </a>
+                </p>
+                <div
+                  className="HeaderGame-gameUserPhoto-78"
+                >
+                  <img
+                    alt=""
+                    src="user.jpg"
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              className="RollTopDesktop-gameRollNext-49"
+            >
+              <p>
+                next roll in:
+                 
+                <span
+                  className="RollTopDesktop-gameRollNextCounter-50"
+                >
+                  00:00:23.12
+                </span>
+              </p>
+            </div>
+            <div
+              className="RollTopDesktop-gameRollDescr-51"
+            >
+              <div
+                className="RollTopDesktop-gameRollDescrleft-52"
+              >
+                <div
+                  className="RollTopDesktop-gameRollTitleBlock-53"
+                >
+                  <p
+                    className="RollTopDesktop-gameRollTitle-54"
+                  >
+                    4Clover
+                  </p>
+                  <span
+                    className="RollTopDesktop-gameRollOnline-55"
+                  >
+                    online: 234
+                  </span>
+                  <br />
+                  <span
+                    className="RollTopDesktop-gameRollCompany-56"
+                  >
+                    by Fall Inc.
+                  </span>
+                </div>
+                <div
+                  className="RollTopDesktop-gameRollText-57"
+                >
+                  <p>
+                    Integer tempor semper sapien sit amet bibendum. Etiam ornare teInteger tempor semper sapien sit amet bibendum. Etiam ornare te et bibendum. Etiam ornare te
+                  </p>
+                </div>
+                <div
+                  className="RollTopDesktop-gameRollTags-58"
+                >
+                  <p>
+                    #ROLLED #BESTCRYPTO #ETH 
+                  </p>
+                </div>
+              </div>
+              <div
+                className="RollTopDesktop-gameRollRating-59"
+              >
+                <p
+                  className="RollTopDesktop-ratingValue-60"
+                >
+                  <span
+                    className="RollTopDesktop-ratingValueNum-61"
+                  >
+                    6.5
+                  </span>
+                  <span
+                    className="RollTopDesktop-ratingValueFull-62"
+                  >
+                    /7
+                  </span>
+                </p>
+                <div
+                  className="RollTopDesktop-ratingStars-63"
+                >
+                  <div
+                    className="RollTopDesktop-fullStars-64"
+                  />
+                  <div
+                    className="RollTopDesktop-halfStars-65"
+                  />
+                </div>
+                <span
+                  className="RollTopDesktop-ratingCategory-66"
+                >
+                  DICE CATEGORY
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="RollBottomDesktop-root-67"
+        >
+          <div
+            className="RollBottomDesktop-gameRollActions-68"
+          >
+            <div
+              className="RollBottomDesktop-playNowBtn-69"
+              onClick={[Function]}
+            >
+              Play Now
+            </div>
+            <a
+              className="RollBottomDesktop-addBtn-70"
+              href="/"
+              onClick={[Function]}
+            >
+              Add to favorites
+            </a>
+          </div>
+          <div
+            className="RollBottomDesktop-gameRollSlider-71"
+            id="scrollSlider"
+            tabIndex="5000"
+          >
+            <a
+              className="RollBottomDesktop-sliderItem-72"
+              href="/"
+              onClick={[Function]}
+            >
+              <img
+                alt=""
+                className="RollBottomDesktop-sliderItemPhoto-73"
+              />
+            </a>
+            <a
+              className="RollBottomDesktop-sliderItem-72"
+              href="/"
+              onClick={[Function]}
+            >
+              <img
+                alt=""
+                className="RollBottomDesktop-sliderItemPhoto-73"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main
+      className="Game-gameMain-4"
+    >
+      <div
+        className="GameCounter-root-8"
+      >
+        <div
+          className="GameCounter-counterWins-13"
+        >
+          <p
+            className="GameCounter-counterBiggestWin-14"
+          >
+            <span
+              className="GameCounter-counterValue-18"
+            >
+              4666.78 dcb
+            </span>
+             
+            <br />
+             BIGGEST WIN 
+            <br />
+             FOR ALL TIME
+          </p>
+        </div>
+        <div
+          className="GameCounter-counterHours-9"
+        >
+          <p
+            className="GameCounter-counterHoursVolume-15"
+          >
+            <span
+              className="GameCounter-counterValue-18"
+            >
+              167.12 dcb
+            </span>
+             
+            <br />
+             VOLUME OF 
+            <br />
+            24 HOURS
+          </p>
+        </div>
+        <div
+          className="GameCounter-counterUsers-10"
+        >
+          <p
+            className="GameCounter-counterUsersVolume-11"
+          >
+            <span
+              className="GameCounter-counterValue-18"
+            >
+              785
+            </span>
+             
+            <br />
+             USERS FOR 
+            <br />
+            LAST 24 HOURS
+          </p>
+        </div>
+        <div
+          className="GameCounter-counterContracts-12"
+        >
+          <p
+            className="GameCounter-counterContractsVolume-16"
+          >
+            <span
+              className="GameCounter-counterValue-18"
+            >
+              20243.12 dcb
+            </span>
+             
+            <br />
+             ALL VOLUME OF 
+            <br />
+             SMART CONTRACT
+          </p>
+          <br />
+          <a
+            className="GameCounter-counterContractsLink-17"
+            href="/"
+            onClick={[Function]}
+          >
+            0x7fdcd2a1e52f10c28cb7732f46393e297ecadda1
+          </a>
+        </div>
+      </div>
+      <div
+        className="GameComments-root-19"
+      >
+        <div
+          className="GameComments-commentItem-20 GameComments-comment1-21"
+        >
+          <a
+            className="GameComments-commentUser-22"
+            href="/"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="GameComments-commentUserPhoto-23"
+              src="UserImg"
+            />
+          </a>
+          <div
+            className="GameComments-commentTitle-24"
+          >
+            <span
+              className="GameComments-commentTitleText-25"
+            >
+              Ben F.
+               says:
+            </span>
+            <time
+              className="GameComments-commentDate-26"
+              dateTime="2018-05-22 13:30"
+            >
+              22 May 2018 12:03
+            </time>
+          </div>
+          <p>
+            Curabitur tincidunt orci quis odio aliquet placerat. Nullam laoreet justo eros, quis semper turpis gravida eget. Ut ullamcorper nibho a massa tincidunt malesuada. In nunc velit basank. s semper turpis gravida eget. Ut ullamcorper nibho a massa tincidunt malesuada. In nunc velit basank.
+          </p>
+          <a
+            className="GameComments-commentLike-28"
+            href="/"
+            onClick={[Function]}
+          >
+             
+            <span
+              className="GameComments-likeValue-29"
+            >
+              5
+            </span>
+             Like
+          </a>
+          <a
+            className="GameComments-subComment-27"
+            href="/"
+            onClick={[Function]}
+          >
+            <span
+              className="GameComments-commentValue-30"
+            >
+              7
+            </span>
+             Comment
+          </a>
+        </div>
+        <div
+          className="GameComments-commentItem-20 GameComments-comment2-31"
+        >
+          <a
+            className="GameComments-commentUser-22"
+            href="/"
+            onClick={[Function]}
+          >
+            <img
+              alt=""
+              className="GameComments-commentUserPhoto-23"
+              src="UserImg"
+            />
+          </a>
+          <div
+            className="GameComments-commentTitle-24"
+          >
+            <span
+              className="GameComments-commentTitleText-25"
+            >
+              Thomas D.
+               says:
+            </span>
+            <time
+              className="GameComments-commentDate-26"
+              dateTime="2018-05-22 13:30"
+            >
+              22 May 2018 12:03
+            </time>
+          </div>
+          <p>
+            Nulla non pellentesque sem, sed aliquet justo. Praesent egestas purus et bibendum tempus.Interdum et malesuada fames ac ante ipsum primis in faucibus.
+          </p>
+          <a
+            className="GameComments-commentLike-28"
+            href="/"
+            onClick={[Function]}
+          >
+             
+            <span
+              className="GameComments-likeValue-29"
+            >
+              5
+            </span>
+             Like
+          </a>
+          <a
+            className="GameComments-subComment-27"
+            href="/"
+            onClick={[Function]}
+          >
+            <span
+              className="GameComments-commentValue-30"
+            >
+              7
+            </span>
+             Comment
+          </a>
+        </div>
+      </div>
+    </main>
+    <footer
+      className="Footer-root-43"
+    >
+      <ul
+        className="Footer-footerNav-44"
+      >
+        <li>
+          <a
+            className="Footer-footerNavItem-45"
+            href="/"
+            onClick={[Function]}
+          >
+            Dashboard
+          </a>
+        </li>
+        <li>
+          <a
+            className="Footer-footerNavItem-45"
+            href="/"
+            onClick={[Function]}
+          >
+            Wallet
+          </a>
+        </li>
+        <li>
+          <a
+            className="Footer-footerNavItem-45"
+            href="/"
+            onClick={[Function]}
+          >
+            Shop
+          </a>
+        </li>
+        <li>
+          <a
+            className="Footer-footerNavItem-45"
+            href="/games"
+            onClick={[Function]}
+          >
+            Games
+          </a>
+        </li>
+        <li>
+          <a
+            className="Footer-footerNavItem-45"
+            href="/"
+            onClick={[Function]}
+          >
+            Friends
+          </a>
+        </li>
+        <li>
+          <a
+            className="Footer-footerNavItem-45"
+            href="/"
+            onClick={[Function]}
+          >
+            Settings
+          </a>
+        </li>
+      </ul>
+      <span>
+        Vault. All Rights Reserved 2018
+      </span>
+    </footer>
+  </div>
+</div>
+`;

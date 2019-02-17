@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<header
+  className="HeaderMain-root-1"
+>
+  <div
+    className="UserBlock-root-2"
+  >
+    <div
+      className="UserBlock-user-3"
+    >
+      <div
+        className="UserBlock-userBlock-4"
+      >
+        <p
+          className="UserBlock-userHello-5"
+        >
+          Hello, anonymous 
+          <br />
+          <a
+            className="UserBlock-userVerification-6"
+            href="/"
+            onClick={[Function]}
+          >
+            KYC VERIFICATION
+          </a>
+        </p>
+        <div
+          className="UserBlock-userPhoto-7"
+        >
+          <img
+            alt=""
+            src="user.jpg"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+`;

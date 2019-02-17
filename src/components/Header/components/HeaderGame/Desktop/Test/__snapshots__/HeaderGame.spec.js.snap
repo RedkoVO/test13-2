@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly DESKTOP 1`] = `
+<div
+  className="HeaderGame-root-1"
+>
+  <div
+    className="HeaderGame-gameUserBlock-2"
+  >
+    <p
+      className="HeaderGame-gameUserHello-3"
+    >
+      Hello, Ben A 
+      <br />
+      <a
+        className="HeaderGame-gameUserVerification-4"
+        href="/"
+        onClick={[Function]}
+      >
+        KYC VERIFICATION
+      </a>
+    </p>
+    <div
+      className="HeaderGame-gameUserPhoto-5"
+    >
+      <img
+        alt=""
+        src="user.jpg"
+      />
+    </div>
+  </div>
+</div>
+`;
