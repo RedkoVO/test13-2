@@ -18,136 +18,6 @@ import { getBigNumberAmount } from '../../utils/math'
 
 import AsyncDashboardDesktop from '../../components/Dashboard/Desktop/AsyncDashboardDesktop'
 
-import BestShopLogo from '../../assets/images/shop.jpg'
-import CSGOLogo from '../../assets/images/csgo.jpg'
-import CasesLogo from '../../assets/images/cases.jpg'
-import GameLogo from '../../assets/images/loto-game.png'
-import CloverLogo from '../../assets/images/sim_game_icon_4clover.png'
-import JungleImg2 from '../../assets/images/jungle_game2.png'
-
-const tmpBestAdsCollection = [
-  {
-    id: 1,
-    title: '',
-    img: BestShopLogo,
-    link: '/',
-    titleLink: 'Stream of the day',
-    nameLink: 'Blue cool Jelly'
-  },
-  {
-    id: 2,
-    title: '',
-    img: CSGOLogo,
-    link: '/skins',
-    titleLink: 'Cases of the day',
-    nameLink: 'Blue cool Jelly'
-  },
-  {
-    id: 3,
-    title: '',
-    img: CasesLogo,
-    link: '/cases',
-    titleLink: 'Cases of the day',
-    nameLink: 'Blue cool Jelly'
-  }
-]
-const gameCategories = [
-  {
-    id: 1,
-    game: [
-      {
-        id: 1,
-        title: 'Most popular',
-        name: '4Clover',
-        img: CloverLogo,
-        bundle: '4clover'
-      },
-      {
-        id: 2,
-        title: 'Most popular',
-        name: 'Jungle Treasure',
-        img: JungleImg2,
-        bundle: 'jungle'
-      },
-      {
-        id: 3,
-        title: 'For children',
-        name: 'Word games',
-        img: GameLogo,
-        bundle: '4clover'
-      },
-      {
-        id: 4,
-        title: 'For children',
-        name: 'Funny games',
-        img: GameLogo,
-        bundle: '4clover'
-      },
-      {
-        id: 5,
-        title: 'For children',
-        name: 'Word games',
-        img: GameLogo,
-        bundle: '4clover'
-      },
-      {
-        id: 6,
-        title: 'For children',
-        name: 'Word games',
-        img: GameLogo,
-        bundle: '4clover'
-      }
-    ]
-  },
-  {
-    id: 2,
-    game: [
-      {
-        id: 1,
-        title: 'Most popular',
-        name: 'Loto games',
-        img: GameLogo,
-        bundle: '4clover'
-      },
-      {
-        id: 2,
-        title: 'Most popular',
-        name: 'Dice games',
-        img: GameLogo,
-        bundle: '4clover'
-      },
-      {
-        id: 3,
-        title: 'For children',
-        name: 'Word games',
-        img: GameLogo,
-        bundle: '4clover'
-      },
-      {
-        id: 4,
-        title: 'For children',
-        name: 'Funny games',
-        img: GameLogo,
-        bundle: '4clover'
-      },
-      {
-        id: 5,
-        title: 'For children',
-        name: 'Word games',
-        img: GameLogo,
-        bundle: '4clover'
-      },
-      {
-        id: 6,
-        title: 'For children',
-        name: 'Word games',
-        img: GameLogo,
-        bundle: '4clover'
-      }
-    ]
-  }
-]
-
 const FORM_NAME = 'sendMoney'
 
 const mapStateToProps = state => ({
@@ -163,7 +33,6 @@ export default compose(
   withState('isDisabledButton', 'setDisabledButton', false),
   withState('curencySelectValue', 'setCurencySelectValue', {}),
   withState('textToCopy', 'setTextToCopy', false),
-  withState('isSubscribeCheckbox', 'setisSubscribeCheckbox', true),
   withHandlers({
     handleChangeBalance: ({ setCurencySelectValue, allBalance }) => value => {
       setCurencySelectValue({
@@ -174,13 +43,6 @@ export default compose(
 
     onCopyKey: ({ setTextToCopy, textToCopy }) => () => {
       setTextToCopy(!textToCopy)
-    },
-
-    handleSubscribeCheckbox: ({
-      setisSubscribeCheckbox,
-      isSubscribeCheckbox
-    }) => () => {
-      setisSubscribeCheckbox(!isSubscribeCheckbox)
     },
 
     onSubmit: ({
@@ -291,8 +153,6 @@ export default compose(
     }
   }),
   withProps(() => ({
-    bestAds: tmpBestAdsCollection,
-    gameCategories: gameCategories,
     addressKey: localStorage.getItem('address')
   })),
   pure

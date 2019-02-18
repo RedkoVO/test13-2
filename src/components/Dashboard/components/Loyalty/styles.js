@@ -1,5 +1,12 @@
+import TitleLogo from '../../../../assets/images/loyalty-icon.png'
+
 export default theme => ({
   root: {
+    display: 'flex',
+    boxSizing: 'border-box',
+    alignItems: 'center',
+    marginBottom: '30px',
+    flexDirection: 'column',
     paddingTop: '60px'
   },
   title: {
@@ -8,7 +15,20 @@ export default theme => ({
     fontSize: '29px',
     textAlign: 'center',
     fontWeight: 700,
-    marginBottom: '40px'
+    marginBottom: '40px',
+
+    '&::before': {
+      position: 'absolute',
+      content: `""`,
+      width: '20px',
+      height: '20px',
+      bottom: '6px',
+      left: '-25px',
+      backgroundImage: `url(${TitleLogo})`,
+      backgroundRepeat: 'no-repeat',
+      backgroundSize: '20px',
+      backgroundPosition: 'center'
+    }
   },
   transactionsTable: {
     width: '800px',

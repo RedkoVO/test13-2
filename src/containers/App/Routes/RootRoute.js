@@ -12,6 +12,7 @@ import AsyncRegistration from '../../../containers/Auth/Registration/AsyncRegist
 import AsyncConfirmEmail from '../../../containers/Auth/ConfirmEmail/AsyncConfirmEmail'
 import AsyncDashboard from '../../../containers/Dashboard/AsyncDashboard'
 import AsyncShop from '../../../containers/Shop/AsyncShop'
+import Marketplace from '../../../containers/Marketplace/'
 import AsyncGames from '../../../containers/Games/AsyncGames'
 import AsyncGame from '../../../containers/Game/AsyncGame'
 import AsyncStream from '../../../containers/Stream/AsyncStream'
@@ -56,6 +57,8 @@ const RootRoute = props => {
       {secretKey && <RoutePage path={`/settings`} component={AsyncSettings} />}
 
       {secretKey && <RoutePage path={`/friends`} component={AsyncFriends} />}
+
+      {secretKey && <RoutePage path={`/marketplace`} component={Marketplace} />}
 
       {secretKey && <Route path={`/games`} component={AsyncGames} />}
 

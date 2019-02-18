@@ -3,27 +3,20 @@ import PropTypes from 'prop-types'
 import withStyles from '@material-ui/core/styles/withStyles'
 
 import TransactionHistory from '../../../containers/TransactionHistory/AsyncTransactionHistory'
-import BestAd from '../components/BestAd'
-import Categories from '../components/Categories'
 import Wallet from '../components/Wallet'
 import Loyalty from '../components/Loyalty'
-import Contacts from '../components/Contacts'
-import Settings from '../components/Settings'
+import Marketplace from '../components/Marketplace'
 
 import styles from './styles'
 
 const Dashboard = ({
   classes,
-  bestAds,
-  gameCategories,
   allBalance,
   isDisabledButton,
   onSubmit,
   onCopyKey,
   addressKey,
   handleChangeBalance,
-  handleSubscribeCheckbox,
-  isSubscribeCheckbox,
   curencySelectValue
 }) => (
   <main>
@@ -42,29 +35,19 @@ const Dashboard = ({
         currency={curencySelectValue}
       />
       <Loyalty />
-      <BestAd bestAds={bestAds} />
-      <Categories categories={gameCategories} />
-      <Contacts />
-      <Settings
-        handleSubscribeCheckbox={handleSubscribeCheckbox}
-        isSubscribeCheckbox={isSubscribeCheckbox}
-      />
+      <Marketplace />
     </div>
   </main>
 )
 
 Dashboard.propTypes = {
   classes: PropTypes.object,
-  bestAds: PropTypes.array,
-  gameCategories: PropTypes.array,
   allBalance: PropTypes.object,
   isDisabledButton: PropTypes.bool,
   onSubmit: PropTypes.func,
   onCopyKey: PropTypes.func,
   addressKey: PropTypes.string,
   handleChangeBalance: PropTypes.func,
-  handleSubscribeCheckbox: PropTypes.func,
-  isSubscribeCheckbox: PropTypes.bool,
   curencySelectValue: PropTypes.object
 }
 

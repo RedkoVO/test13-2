@@ -40,7 +40,7 @@ const MenuNavigation = ({ classes, page }) => (
     </li>
     <li>
       <NavLink
-        to={'/games'}
+        to={'/marketplace'}
         className={classes.headerMenuItem}
         activeClassName="active"
       >
