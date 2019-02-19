@@ -10,6 +10,7 @@ import PricesSell from '../components/PricesSell'
 
 import BTCIcon from '../../../assets/images/btc_icon.png'
 import USDIcon from '../../../assets/images/usd_icon.png'
+import MockDepositImg from '../../../assets/images/mock-deposit.png'
 
 import styles from './styles'
 
@@ -24,7 +25,7 @@ const Vchange = ({
 }) => (
   <main>
     <div className={classes.root}>
-      <div className={classes.title}>Pair to exchange</div>
+      {/* <div className={classes.title}>Pair to exchange</div>
       <div className={classes.wrChooseCurrency}>
         <div className={classes.wrCurrency}>
           <Select
@@ -112,7 +113,11 @@ const Vchange = ({
       <div className={classes.prices}>
         <PricesBuy pricesBuyData={pricesBuyData} />
         <PricesSell pricesSellData={pricesSellData} />
-      </div>
+      </div> */}
+
+
+
+      <img className={classes.mock} src={MockDepositImg} alt="" />
     </div>
   </main>
 )

@@ -65,5 +65,14 @@ export default theme => ({
       opacity: 1,
       border: 'none'
     }
+  },
+  wrProducts: {
+    '& img': {
+      width: '700px',
+      margin: '0 auto',
+      display: 'block',
+      marginTop: '20px',
+      marginBottom: '100px'
+    }
   }
 })

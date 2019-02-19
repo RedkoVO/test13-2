@@ -110,5 +110,9 @@ export default () => ({
   prices: {
     display: 'flex',
     justifyContent: 'space-around'
+  },
+  mock: {
+    width: '700px',
+    margin: '0 auto'
   }
 })

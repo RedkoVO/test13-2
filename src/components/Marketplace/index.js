@@ -5,6 +5,7 @@ import withStyles from '@material-ui/core/styles/withStyles'
 
 import SliderImg from '../../assets/images/marketplace_slider.png'
 import DotsImg from '../../assets/images/slider-dots.png'
+import MockMarketplaceImg from '../../assets/images/mock-marketplace.png'
 
 import styles from './styles.js'
 
@@ -38,6 +39,10 @@ const Marketplace = ({ classes, products, checked, handleCheckbox }) => (
           />
           Personal
         </div>
+      </div>
+
+      <div className={classes.wrProducts}>
+        <img src={MockMarketplaceImg} alt="" />
       </div>
     </div>
   </main>
